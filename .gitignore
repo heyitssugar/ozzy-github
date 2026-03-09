@@ -1,0 +1,23 @@
+# Binary
+github-subdomains
+main
+
+# Build artifacts
+dist/
+coverage.out
+coverage.html
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Tokens (never commit)
+.tokens
+*.tokens
+
+# Checkpoints
+*.checkpoint.json

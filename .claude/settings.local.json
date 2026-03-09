@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Desktop_Commander__list_directory",
+      "Bash(go mod tidy)",
+      "Bash(go build ./cmd/github-subdomains)",
+      "Bash(go build -o github-subdomains ./cmd/github-subdomains)",
+      "Bash(./github-subdomains --help)",
+      "Bash(go test -race -count=1 ./...)",
+      "Bash(./github-subdomains version)",
+      "Bash(go test -race ./...)",
+      "Bash(make build)",
+      "Bash(go vet ./...)",
+      "Bash(go test -race ./internal/extractor/ -v)",
+      "Bash(go build -o /dev/null ./cmd/github-subdomains/)",
+      "Bash(go test -run TestQueryCountForHackerone -v ./internal/github/)",
+      "Bash(go build ./...)",
+      "Bash(go test -race ./... -v)",
+      "Bash(go build -o ./github-subdomains ./cmd/github-subdomains/)"
+    ]
+  }
+}

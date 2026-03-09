@@ -1,11 +1,19 @@
 module github.com/gwen001/github-subdomains
 
-go 1.13
+go 1.22.0
 
 require (
-	github.com/bobesa/go-domain-util v0.0.0-20190911083921-4033b5f7dd89 // indirect
-	github.com/jpillora/go-tld v1.0.0
-	github.com/json-iterator/go v1.1.10
-	github.com/logrusorgru/aurora v2.0.3+incompatible
-	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
+	github.com/schollz/progressbar/v3 v3.17.1
+	github.com/spf13/cobra v1.8.1
+	golang.org/x/net v0.33.0
+	golang.org/x/sync v0.10.0
+	golang.org/x/term v0.27.0
+)
+
+require (
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
+	golang.org/x/sys v0.28.0 // indirect
 )
