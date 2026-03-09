@@ -1,6 +1,6 @@
-# Binary
-github-subdomains
-main
+# Binary (root-level only, not cmd/github-subdomains/)
+/github-subdomains
+/main
 
 # Build artifacts
 dist/
